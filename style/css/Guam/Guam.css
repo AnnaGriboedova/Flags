@@ -1,0 +1,20 @@
+.Guam{
+    background-color:red;
+    height: 100%;
+}
+.Guam_squareBlue{
+    position: absolute;
+    height: 280px;
+    width: 580px;
+    top: 10px;
+    left: 10px;
+    background-color:#3B5AA3;
+}
+.Guam_imgCenter{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("guam.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}

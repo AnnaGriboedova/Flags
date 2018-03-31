@@ -20,6 +20,10 @@
 @import url(Islandia/Islandia.css);
 @import url(Somali/Somali.css);
 @import url(Polska/Polska.css);
+@import url(Benin/Benin.css);
+@import url(Bostvana/Bostvana.css);
+@import url(Laos/Laos.css);
+@import url(Guam/Guam.css);
 .global_wrapper{
 	width: 600px;
 	margin: 0 auto;

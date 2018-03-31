@@ -1,0 +1,23 @@
+.Laos{
+    position: relative;
+    height: 100%;
+    background-color:red;
+    margin: 0px 0px 0px 0px;
+}
+
+.Laos_lineCenterBlue{
+    height: 50%;
+    width: 100%;
+    background: #002868;
+    top: 25%;
+    position: absolute;
+}
+.Laos_circleWhite{
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	top: 90px;
+	left: 240px;
+	background: white;
+	border-radius: 100%;
+}

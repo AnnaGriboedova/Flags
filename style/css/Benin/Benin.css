@@ -1,0 +1,20 @@
+.Benin{
+    position: relative;
+    height: 100%;
+    background-color:yellow;
+    margin: 0px 0px 0px 0px;
+}
+
+.Benin_lineBottomRed{
+    height: 50%;
+    width: 100%;
+    background: red;
+    bottom: 0px;
+    position: absolute;
+}
+.Benin_lineLeftGreen{
+    height: 100%;
+    width: 40%;
+    background: green;
+    position: absolute;
+}
