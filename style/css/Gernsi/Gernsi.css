@@ -1,0 +1,68 @@
+.Gernsi{
+    position: relative;
+    height: 100%;
+    background-color:white;
+}
+
+.Gernsi_LineVerticalRed{
+    width: 14%;
+    height: 100%;
+    background: red;
+    left: 43%;
+    position: absolute;
+}
+.Gernsi_LineHorizontalRed{
+    width: 100%;
+    height: 28%;
+    background: red;
+    top: 36%;
+    position: absolute;
+}
+.Gernsi_LineVerticalYellow{
+    width: 5%;
+    height: 80%;
+    background: yellow;
+    top: 10%;
+    left: 47.5%;
+    position: absolute;
+}
+.Gernsi_LineHorizontalYellow{
+    width: 40%;
+    height: 10%;
+    background: yellow;
+    top: 45%;
+    left: 30%;
+    position: absolute;
+}
+.Gernsi_TriangleTopYellow{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    border-top: 30px solid yellow;
+}
+.Gernsi_TriangleBottomYellow{
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    border-bottom: 30px solid yellow;
+}
+.Gernsi_TriangleLeftYellow{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    border-left: 30px solid yellow;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+}
+.Gernsi_TriangleRightYellow{
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    border-right: 30px solid yellow;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+}

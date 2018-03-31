@@ -1,0 +1,83 @@
+.China{
+    position: relative;
+    height: 100%;
+    background-color:red;
+}
+.China_star-fiveBig, .China_star-fiveSmall1, .China_star-fiveSmall2, .China_star-fiveSmall3, .China_star-fiveSmall4 {
+   margin: 50px 0;
+   position: absolute;
+   display: block;
+   color: yellow;
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid yellow;
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+}
+.China_star-fiveBig:before, .China_star-fiveSmall1:before, .China_star-fiveSmall2:before, .China_star-fiveSmall3:before, .China_star-fiveSmall4:before {
+   border-bottom: 80px solid yellow;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+
+}
+.China_star-fiveBig:after, .China_star-fiveSmall1:after, .China_star-fiveSmall2:after, .China_star-fiveSmall3:after, .China_star-fiveSmall4:after {
+   position: absolute;
+   display: block;
+   color: yellow;
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid yellow;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+}
+.China_star-fiveBig{
+	top: -5px;
+	left: -10px;
+	transform: scale(0.5) rotate(35deg);
+}
+.China_star-fiveSmall1{
+	left: 70px;
+	top: -55px;
+	transform: scale(0.15) rotate(-7deg);
+	position: absolute;
+}
+.China_star-fiveSmall2{
+	left: 105px;
+	top: -20px;
+	transform: scale(0.15) rotate(9deg);
+	position: absolute;
+}
+.China_star-fiveSmall3{
+	left: 105px;
+	top: 25px;
+	transform: scale(0.15) rotate(35deg);
+	position: absolute;
+}
+.China_star-fiveSmall4{
+	left: 70px;
+	top: 63px;
+	transform: scale(0.15) rotate(-20deg);
+	position: absolute;
+}

@@ -1,0 +1,12 @@
+.Polska{
+	position: relative;
+	height: 100%;
+	background-color: white;
+}
+.Polska_lineBottomRed{
+	width: 100%;
+    height: 50%;
+    background: #dc143c;
+    bottom: 0px;
+    position: absolute;
+}

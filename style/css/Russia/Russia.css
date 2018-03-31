@@ -1,0 +1,4 @@
+.Russia {
+	height: 100%;
+    background: linear-gradient(to bottom, white 0, white 100px, blue 100px, blue 200px, red 100px);
+}

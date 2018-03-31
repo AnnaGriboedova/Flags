@@ -1,0 +1,17 @@
+.Litva{
+    height: 100%;
+    background-color:green;
+}
+
+.Litva_LineTopYellow{
+    width: 100%;
+    height: 33.33%;
+    background: yellow;
+}
+.Litva_LineBottomGreen{
+    width: 100%;
+    height: 33.33%;
+    background: red;
+    bottom: 0px;
+    position: absolute;
+}

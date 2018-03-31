@@ -1,0 +1,11 @@
+.Bahamas {
+	display: none;
+    height: 100%;
+    background: linear-gradient(to bottom, #00abc9 0, #00abc9 100px, #fae042 100px, #fae042 200px, #00abc9 100px);;
+}
+.Bahamas_1 {
+    width: 0; height: 0;
+    border-left: 300px solid black;
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+}

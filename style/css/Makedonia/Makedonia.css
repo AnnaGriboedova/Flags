@@ -1,0 +1,77 @@
+.Makedonia{
+    position:relative;
+    height: 100%;
+    background-color:red;
+}
+.Makedonia_TriangleLeftYellow{
+    position: absolute;
+    border-top: 30px solid transparent;
+    border-left: 300px solid yellow;
+    border-bottom: 30px solid transparent;
+    margin: 120px 0px 0px 0px;
+}
+.Makedonia_TriangleRightYellow{
+    position: absolute;
+    border-top: 30px solid transparent;
+    border-right: 300px solid yellow;
+    border-bottom: 30px solid transparent;
+    margin: 120px 0px 0px 300px;
+}
+.Makedonia_TriangleBottomYellow{
+    position: absolute;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 150px solid yellow;
+    margin: 150px 0px 0px 270px;
+}
+.Makedonia_TriangleTopYellow{
+    position: absolute;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 150px solid yellow;
+    margin: 0px 0px 0px 270px;
+}
+.Makedonia_BigTriangleBottomYellow{
+    position: absolute;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 150px solid yellow;
+    margin: 150px 0px 0px 0px;
+}
+.Makedonia_BigTriangleBottomRed{
+    position: absolute;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 150px solid red;
+    margin: 150px 0px 0px 100px;
+}
+.Makedonia_BigTriangleTopYellow{
+    position: absolute;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-top: 150px solid yellow;
+    margin: 0px 0px 0px 0px;
+}
+.Makedonia_BigTriangleTopRed{
+    position: absolute;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-top: 150px solid red;
+    margin: 0px 0px 0px 100px;
+}
+.Makedonia_CircleRed{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 100px 0px 0px 250px;
+    border-radius: 100%;
+}
+.Makedonia_CircleYellow{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: yellow;
+    margin: 110px 0px 0px 260px;
+    border-radius: 100%;
+}

@@ -1,0 +1,11 @@
+.Kuwait {
+   background: linear-gradient(to bottom, seagreen 0, seagreen 100px, white 100px, white 200px, red 100px);
+}
+.Kuwait_1 {
+    border-bottom: 100px solid transparent;
+    border-left: 170px solid black;
+    border-top: 100px solid transparent;
+    height: 100px;
+    width: 0px;
+    border-right: none;
+}

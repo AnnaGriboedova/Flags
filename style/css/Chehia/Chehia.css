@@ -1,0 +1,30 @@
+.Chehia{
+    position: relative;
+    height: 100%;
+    background-color:yellow;
+    margin: 0px 0px 0px 0px;
+}
+
+.Chehia_LineTopWhite{
+    height: 50%;
+    background: white;
+
+    
+    margin: 0px 0px 0px 0px;
+}
+.Chehia_LineBottomRed{
+    height: 50%;
+    bottom: 0px;
+    background: #d7141a;
+    
+    
+}
+
+.Chehia_TriangleLeftBlue{
+    position: absolute;
+    top: 0;
+    border-top: 150px solid transparent;
+    border-left: 280px solid #11457e;
+    border-bottom: 150px solid transparent;
+    margin: 0px 0px 0px 0px;
+}

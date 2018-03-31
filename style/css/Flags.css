@@ -1,0 +1,86 @@
+@import url(Chehia/Chehia.css);
+@import url(Jamaica/Jamaica.css);
+@import url(Bahamas/Bahamas.css);
+@import url(Burkina/Burkina.css);
+@import url(Grenladia/Grenladia.css);
+@import url(Litva/Litva.css);
+@import url(Makedonia/Makedonia.css);
+@import url(Denmark/Denmark.css);
+@import url(Kuwait/Kuwait.css);
+@import url(Maldives/Maldives.css);
+@import url(CongoRepublic/Congo.css);
+@import url(Luksemburk/Luksemburk.css);
+@import url(Russia/Russia.css);
+@import url(Bangladesh/Bangladesh.css);
+@import url(Japan/Japan.css);
+@import url(China/China.css);
+@import url(Gernsi/Gernsi.css);
+@import url(Vietnam/Vietnam.css);
+@import url(Gaiti/Gaiti.css);
+@import url(Islandia/Islandia.css);
+@import url(Somali/Somali.css);
+@import url(Polska/Polska.css);
+.global_wrapper{
+	width: 600px;
+	margin: 0 auto;
+
+}
+.Flag{
+	margin-top: 60px; 
+	width: 600px;
+	height: 300px;
+	border: 2px solid black;
+	position: relative;
+}
+.Flag{
+	position:relative;
+	overflow:hidden;
+}
+ 
+.country_name{
+	background-color:rgba(0, 0, 0, 0.4);
+	top:-300px;
+	transition-duration:0.6s;
+	position:absolute;
+	text-align:center;
+	color:#fff;
+	font-size:2em;
+	font-weight:bold;
+	line-height:300px;
+	margin:0;
+	display:block;
+	width:100%;
+}
+ 
+.Flag:hover .country_name{
+	top:0;
+}
+.imposeFlag{
+	position:relative;
+	width: 600px;
+	height: 300px;
+	position: relative;
+}
+
+.imposeFlag:hover .hiddenFlag{
+    width: 600px;
+    height: 300px;
+    display: block;
+    position: absolute; top: 0; left: 0;
+    
+    color: #fff;
+}
+.country_name-visible{
+	background-color:rgba(0, 0, 0, 0.4);
+	top:0px;
+	
+	position:absolute;
+	text-align:center;
+	color:#fff;
+	font-size:2em;
+	font-weight:bold;
+	line-height:300px;
+	margin:0;
+	display:block;
+	width:100%;
+}

@@ -1,0 +1,6 @@
+	.Luksemburk{
+		display: none;
+		position: relative;
+		height: 300px;
+		background: linear-gradient(to bottom, red 0, red 100px, white 100px, white 200px, blue 100px);
+	}

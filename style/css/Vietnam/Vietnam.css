@@ -1,0 +1,48 @@
+.Vietnam {
+    height: 100%;
+    background: #da251d;
+}
+.Vietnam_1 {
+    margin: 110px 200px;
+    color: #ffff00;
+    position: absolute;
+    display: block;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid #ffff00;
+    border-left: 100px solid transparent;
+    -moz-transform: rotate(35deg);
+    -webkit-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    -o-transform: rotate(35deg);
+}
+
+.Vietnam_1:before {
+    position: absolute;
+    display: block;
+    top: -45px;
+    left: -65px;
+    border-bottom: 80px solid #ffff00;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    content: '';
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+}
+
+.Vietnam_1:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 3px;
+    left: -105px;
+    color: #ffff00;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid #ffff00;
+    border-left: 100px solid transparent;
+    -webkit-transform: rotate(-70deg);
+    -moz-transform: rotate(-70deg);
+    -ms-transform: rotate(-70deg);
+    -o-transform: rotate(-70deg);
+}

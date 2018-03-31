@@ -1,0 +1,21 @@
+.Denmark {
+    background: red;
+ }
+.Denmark_1 {
+    margin-left: 0;
+    border: none;
+    background: white;
+    height: 300px;
+    left: 200px;
+    position: relative;
+    width: 45px;
+}
+.Denmark_1:after {
+    background: white;
+    content: "";
+    height:45px;
+    left: -200px;
+    position: absolute;
+    top: 140px;
+    width: 600px;
+}

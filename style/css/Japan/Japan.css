@@ -1,0 +1,15 @@
+.Japan {
+	display: none;
+    padding-left: 45px;
+    height: 100%;
+    background: #FFF;
+}
+.Japan_1 {
+    position: absolute;
+    top: -15px;
+    margin: 70px 5px 70px 150px;
+    width: 200px;
+    height: 200px;
+    background: #f42a41;
+    border-radius: 50%;
+}
