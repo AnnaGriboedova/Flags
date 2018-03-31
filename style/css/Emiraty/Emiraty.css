@@ -1,0 +1,24 @@
+.Emiraty{
+    position: relative;
+    height: 100%;
+    background-color:white;
+}
+.Emiraty_lineTopGreen{
+    height: 33.3%;
+    width: 100%;
+    background: green;
+    position: absolute;
+}
+.Emiraty_lineBottomBlack{
+    height: 33.3%;
+    width: 100%;
+    background: black;
+    bottom: 0px;
+    position: absolute;
+}
+.Emiraty_lineLeftRed{
+    height: 100%;
+    width: 25%;
+    background: red;
+    position: absolute;
+}
